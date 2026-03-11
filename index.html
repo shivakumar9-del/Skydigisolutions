@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sky Digital Solutions</title>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background: #f5f9ff;
+        color: #333;
+      }
+
+      .container {
+        width: 100%;
+        max-width: 1100px;
+        margin: auto;
+        padding: 0 20px;
+      }
+
+      /* HEADER */
+
+      header {
+        background: linear-gradient(90deg, #0078d4, #00a2ff);
+        color: white;
+        padding: 40px 20px;
+      }
+
+      .header-container {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+      }
+
+      .logo {
+        width: 110px;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 38px;
+      }
+
+      header p {
+        margin: 10px 0 20px;
+        font-size: 18px;
+      }
+
+      .btn {
+        background: white;
+        color: #0078d4;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+      }
+
+      /* INTRO */
+
+      .intro {
+        text-align: left;
+        max-width: 700px;
+        margin: auto;
+        line-height: 1.6;
+        padding: 50px 0 10px;
+      }
+
+      /* SERVICES GRID */
+
+      .services-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+        padding: 40px 0;
+      }
+
+      .service-box {
+        background: white;
+        padding: 30px;
+        border-top: 4px solid #0078d4;
+        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+      }
+
+      .service-box h3 {
+        margin-top: 0;
+        color: #0078d4;
+      }
+
+      .service-box p {
+        font-size: 15px;
+        line-height: 1.6;
+      }
+
+      /* WHY SECTION */
+
+      .why {
+        background: #e9f3ff;
+        padding: 60px 0;
+      }
+
+      .why h2 {
+        text-align: left;
+        margin-bottom: 20px;
+      }
+
+      .why ul {
+        max-width: 600px;
+        line-height: 2;
+      }
+
+      /* CONTACT */
+
+      .contact {
+        padding: 60px 0;
+        text-align: left;
+      }
+
+      .contact h2 {
+        margin-bottom: 10px;
+      }
+
+      /* FOOTER */
+
+      footer {
+        background: #0078d4;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+
+      @media (max-width: 768px) {
+        .services-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+
+        .header-container {
+          flex-direction: column;
+          text-align: center;
+        }
+      }
+
+      @media (max-width: 500px) {
+        .services-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="container header-container">
+        <img src="logo.png" class="logo" />
+
+        <div>
+          <h1>Sky Digital Solutions</h1>
+          <p>Helping Businesses Grow with Smart Digital Marketing</p>
+        </div>
+      </div>
+    </header>
+
+    <section class="container">
+      <p class="intro">
+        Sky Digital Solutions provides professional digital marketing services
+        to help businesses improve their online presence, attract more
+        customers, and grow their brand. Our strategies focus on performance,
+        visibility, and long-term success.
+      </p>
+    </section>
+
+    <section id="services" class="container">
+      <h2 style="text-align: left">Our Digital Marketing Services</h2>
+
+      <div class="services-grid">
+        <div class="service-box">
+          <h3>Search Engine Optimization</h3>
+          <p>
+            Improve your website ranking on Google with effective SEO strategies
+            that increase organic traffic and visibility.
+          </p>
+        </div>
+
+        <div class="service-box">
+          <h3>Social Media Marketing</h3>
+          <p>
+            Build your brand presence on platforms like Instagram, Facebook and
+            LinkedIn with engaging social media campaigns.
+          </p>
+        </div>
+
+        <div class="service-box">
+          <h3>Email Marketing</h3>
+          <p>
+            Reach your customers directly through targeted email marketing
+            campaigns that increase engagement and conversions.
+          </p>
+        </div>
+
+        <div class="service-box">
+          <h3>Content Marketing</h3>
+          <p>
+            Create high quality content that attracts your audience and
+            strengthens your brand authority online.
+          </p>
+        </div>
+
+        <div class="service-box">
+          <h3>Website Optimization</h3>
+          <p>
+            Improve website performance, speed and user experience to convert
+            visitors into customers.
+          </p>
+        </div>
+
+        <div class="service-box">
+          <h3>Digital Strategy</h3>
+          <p>
+            Custom digital marketing strategies tailored to your business goals
+            and target audience.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="why">
+      <div class="container">
+        <h2>Why Choose Sky Digital Solutions</h2>
+
+        <ul>
+          <li>Data-driven marketing strategies</li>
+          <li>Experienced digital marketing professionals</li>
+          <li>Affordable solutions for small businesses</li>
+          <li>Focus on measurable results</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+
+        <p>Hyderabad, India</p>
+        <p>Email: contact@skydigitalsolutions.com</p>
+        <p>Phone: +91 9876543210</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 Sky Digital Solutions</p>
+    </footer>
+  </body>
+</html>
